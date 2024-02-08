@@ -21,7 +21,7 @@ spring.messages.basename: messages/messages
 spring:
   config:
     activate:
-      on-profile: default
+      on-profile: docker
   zipkin:
     baseUrl: http://192.168.33.20:9411
 eureka:
